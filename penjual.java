@@ -51,7 +51,7 @@ public class penjual {
 
         switch (util.input()) {
             case "1": produk.menuProduk(); break;
-            case "2": LaporanPenjualan.tampilkanLaporanPenjualan(); break;
+            case "2": laporanPenjualan.tampilkanLaporanPenjualan(); break;
             case "0": tokoParfum.menuUtama(); break;
             default:
                 System.out.println("Nomor menu tidak valid! silakan pilih menu dengan angka 0 sampai 2");

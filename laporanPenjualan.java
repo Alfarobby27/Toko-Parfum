@@ -2,7 +2,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
-public class LaporanPenjualan {
+public class laporanPenjualan {
 
     // Method to create sales table if it doesn't exist
     public static void buatTabelPenjualan() {

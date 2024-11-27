@@ -81,7 +81,7 @@ public class checkoutProduk {
             prosesPengiriman(idProduk, jumlahProduk);
 
             // Catat penjualan ke laporan penjualan
-            LaporanPenjualan.catatPenjualan(idProduk, jumlahProduk, metodePembayaran);
+            laporanPenjualan.catatPenjualan(idProduk, jumlahProduk, metodePembayaran);
 
             // Hapus produk yang sudah diproses dari keranjang
             keranjangBelanja.keranjang.remove(idProduk);
@@ -121,7 +121,7 @@ public class checkoutProduk {
             prosesPengiriman(idProduk, jumlah);
 
             // Catat penjualan ke laporan penjualan
-            LaporanPenjualan.catatPenjualan(idProduk, jumlah, metodePembayaran);
+            laporanPenjualan.catatPenjualan(idProduk, jumlah, metodePembayaran);
         } else {
             System.out.println("Pembayaran gagal. Silakan coba lagi.");
         }

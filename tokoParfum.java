@@ -5,7 +5,7 @@ public class tokoParfum {
         // Migration: Method untuk membuat tabel dari semua class menu
         penjual.buatTabel(); // buat tabel produk
         penjual.buatDataAwal();
-        LaporanPenjualan.buatTabelPenjualan();
+        laporanPenjualan.buatTabelPenjualan();
 
         // mulai
         System.out.println();
